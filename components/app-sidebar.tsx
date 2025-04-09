@@ -46,12 +46,12 @@ const data = {
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
+      title: "My tasks",
       url: "#",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
+      title: "Notes",
       url: "#",
       icon: IconChartBar,
     },
@@ -162,7 +162,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <span className="text-base font-semibold">Scribble.</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

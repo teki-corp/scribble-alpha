@@ -53,6 +53,7 @@ export const MaskedImage: React.FC<MaskedImageProps> = ({
       alt={alt}
       width={width}
       height={height}
+      priority
     />
   );
 };
